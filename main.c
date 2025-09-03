@@ -8,7 +8,7 @@ int main(void) {
   printf("How many motors will be carrying the packages?\n");
   scanf("%d", &motorCount);
 
-  printf("What is the total weight of the packages?");
+  printf("What is the total weight of the packages?\n");
   scanf("%lf", &totalPackageWeight);
 
   if (totalPackageWeight / motorCount <= motorCapacity) {
