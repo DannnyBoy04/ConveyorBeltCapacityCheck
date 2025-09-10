@@ -1,2 +1,3 @@
-#**Hello**
-This is the repository for a project in my basic C programming course.
+**Conveyor Belt Capacity Check**
+
+A basic C program which checks, if the motors in a conveyor belt are capable of carrying the user-inputted weight of packages.
