@@ -31,7 +31,7 @@ int main(void) {
     if (validPackageWeightInput == 1 &&
         totalPackageWeight / motorCount <= motorCapacity) {
       printf("The motors can carry the packages!");
-      // If the datatype is correct, but
+      // If the datatype is correct, but the motors can't carry the packages.
     } else if (validPackageWeightInput == 1 &&
                totalPackageWeight / motorCount > motorCapacity) {
       printf("The motors cannot carry the packages!");
